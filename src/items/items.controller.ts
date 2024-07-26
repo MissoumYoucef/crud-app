@@ -1,4 +1,3 @@
-// src/items/items.controller.ts
 import { Controller, Get, Post, Param, Body, Put, Delete } from '@nestjs/common';
 import { ItemsService } from './items.service';
 import { CreateItemDto } from './dto/create-item.dto';
